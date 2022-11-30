@@ -166,16 +166,13 @@ text-align: center;
 
 .profile_social-link{
     font-size: 1.25rem;
-color: var(--title-color;
-transition: .3s;
-
+    color: var(--title-color;
 }
 
-.profile_social-link:hover{
-    color: var(--first-color);
-}
 
-.profile
+
+
+
 
 
 /*=============== BUTTONS ===============*/
