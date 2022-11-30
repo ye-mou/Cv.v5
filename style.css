@@ -15,7 +15,7 @@
   --hue: 207;
   --sat: 90%;
   --lig: 61%;
-  
+
   --first-color: hsl(var(--hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
   --title-color: hsl(var(--hue), 12%, 15%);
@@ -103,6 +103,79 @@ img {
 }
 
 /*=============== PROFILE ===============*/
+.profile{
+    position: relative;
+    padding-top: 3.5rem;
+}
+
+.profile_container{
+    row-gap: 2rem;
+}
+.profile_data{
+display: grid;
+text-align: center;
+}
+
+.profile_perfil{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(180deg,
+    hsl(var(--hue), var(--sat), var(--lig), 1) 0%,
+    hsl(var(--hue), var(--sat), var(--lig), .2) 100%);
+    border-radius: 50%;
+    overflow: hidden;
+    display: felx;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+.profile_perfil img{
+    width: 75px;
+}
+
+.profile_border{
+    border: 3.5px solid var(--first-color);
+    justify-self: center;
+    width: 115px;
+    height: 115px;
+    border-radius:50% ;
+    place-items: center;
+    margin-bottom: .75rem;
+}
+
+.profile_name{
+    font-size: var(--h2-font-size);
+   
+
+}
+
+.profile_profession{
+    font-size:var(--smaller-font-size);
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+
+}
+.profile_social{
+    display: flex;
+    justify-content: center;
+    column-gap: .75rem;
+
+}
+
+.profile_social-link{
+    font-size: 1.25rem;
+color: var(--title-color;
+transition: .3s;
+
+}
+
+.profile_social-link:hover{
+    color: var(--first-color);
+}
+
+.profile
 
 
 /*=============== BUTTONS ===============*/
