@@ -166,20 +166,102 @@ text-align: center;
 
 .profile_social-link{
     font-size: 1.25rem;
-    color: var(--title-color;
+    color: var(--title-color);
+}
+
+.profile_social-link:hover{
+  color: var(--first-color);
+}
+
+.profile_info {
+
+display: flex;
+justify-content: center;
+column-gap: 2.5rem;
+
 }
 
 
 
 
+.profile_info-group{
+  text-align: center;
+
+}
+
+.profile_info-number{
+  font-size: var(--normal-font-size);
+  margin-bottom: .25rem;
+}
+
+.profile_info-description{
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
+}
 
 
+.profile_buttons{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.profile_button,
+.profile_buttons-small{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
+.profile_buttons-small{
+  margin-top: .25rem;
+  column-gap: .25rem;
+}
 
 /*=============== BUTTONS ===============*/
+.button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  background-color: var(--first-color);
+  color:white;
+  padding: .5rem;
+  border-radius: 1rem;
+  transition: .3s;
+ 
+}
 
 
+.button i{
+  font-size: 1.25rem;
+
+}
+
+/* .button:hover{
+  background-color: var(--first-color);
+} */
+
+.button_small{
+  padding: .75rem;
+  box-shadow: none;
+
+}
+
+.button_gray{
+
+}
+
+.button_gray:hover{
+  color: black;
+}
 /*=============== FILTERS TABS ===============*/
-
+.filters_content{
+  margin: 2rem 0 2.5rem;
+  
+}
 
 /*=============== PROJECTS ===============*/
 
