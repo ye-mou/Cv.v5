@@ -367,12 +367,25 @@ transition: .3s;
 
 .skills_level{
   font-size: var(--smaller-font-size);
-  
-}
-/* Hide and show projects & skills */
 
+}
+
+
+/* Hide and show projects & skills */
+.project_content, .skills_content[data-content]{
+  display: none;
+
+}
+
+.filters_active[data-content]{
+  display: grid;
+}
 
 /* Activate button filter */
+
+.filter-tab-active{
+  background-color: var(--body-color);
+}
 
 
 /*=============== FOOTER ===============*/
