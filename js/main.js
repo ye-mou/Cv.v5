@@ -1,5 +1,7 @@
-/*=============== FILTERS TABS ===============*/
-
+/*Filtrering*/
+/***
+ * 
+ */
 const tabs = document.querySelectorAll('[data-target]'),
         tabContents = document.querySelectorAll('[data-content]') 
 
@@ -23,7 +25,7 @@ tabs.forEach(tab =>{
     
 })
 
-/*=============== DARK LIGHT THEME ===============*/
+/*Mörkt läge*/
 
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
@@ -73,3 +75,4 @@ sr.reveal('.profile_info-group', { interval:100,delay:700})
 sr.reveal('.profile_buttons', {delay:800})
 sr.reveal('.profile_content', {delay:900})
 sr.reveal('.filters', {delay:1000})
+sr.reveal('.footer_copy', {delay:700})
