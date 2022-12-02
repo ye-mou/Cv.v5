@@ -13,4 +13,4 @@
 
 #Preview
 
-![alt text](https://github.com/ye-mou/Cv.v5/tree/main/img/preview.png?raw=true)
+![preview](https://user-images.githubusercontent.com/118016890/205342963-dec75d1c-d090-48d8-a860-9151b7309807.png)
