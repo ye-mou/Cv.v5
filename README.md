@@ -20,11 +20,3 @@ Under Skills hittar man:
 💙 
 
 Se nedan för preview
-<<<<<<< HEAD
-
-=======
-
-#Preview
-
-![preview](https://user-images.githubusercontent.com/118016890/205342963-dec75d1c-d090-48d8-a860-9151b7309807.png)
->>>>>>> 361357a36be9615624a9953e397cddc68ccc1007
