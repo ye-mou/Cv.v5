@@ -10,14 +10,14 @@ tabs.forEach(tab =>{
     tab.addEventListener('click', ()=>{
         const target = document.querySelector(tab.dataset.target)
 
-        tabContents.forEach(tc => { 
+        tabContents.forEach(tc => { /* tc = tabcontent/innehåll*/
             tc.classList.remove('filters_active')
             
         })
 
         target.classList.add('filters_active')
 
-        tab.forEach(t => { 
+        tab.forEach(t => { /**t = tab */
             t.classList.remove('filter-tab-active')
         })
         tab.classList.add('filter-tab-active')
@@ -33,12 +33,12 @@ const iconTheme = 'ri-sun-line'
 
 
 
-// Activate / deactivate the theme manually with the button
+// För att slå på/av mörkt läge
 themeButton.addEventListener('click', () => {
-    // Add or remove the dark / icon theme
+    // Ta bort mörkt läges schema
     document.body.classList.toggle(darkTheme)
     themeButton.classList.toggle(iconTheme)
-    // We save the theme and the current icon that the user chose
+    // Spara läge i localstorage
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
