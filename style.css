@@ -214,7 +214,7 @@ text-align: center;
 
 display: flex;
 justify-content: center;
-column-gap: 2.5rem;
+
 
 }
 
@@ -244,19 +244,17 @@ column-gap: 2.5rem;
 
 
 
-.profile_button,
+.profile_buttons,
 .profile_buttons-small{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  color: black;
 }
 
 
 
-.profile_buttons-small{
-  margin-top: .25rem;
-  column-gap: .25rem;
-}
+
 
 /*=============== BUTTONS ===============*/
 .button {
@@ -272,10 +270,7 @@ column-gap: 2.5rem;
 }
 
 
-.button i{
-  font-size: 1.25rem;
 
-}
 
 /* .button:hover{
   background-color: var(--first-color);
@@ -320,7 +315,7 @@ column-gap: 2.5rem;
 }
 
 .filters_button:hover{
-  background-color: var(--body-color);
+  background-color: rgb(103, 109, 191);
 }
 /*=============== PROJECTS ===============*/
 .projects_card{
@@ -341,28 +336,36 @@ height: 100%;
 bottom: 0;
 left: 0;
 background: linear-gradient(180deg);
+
+
 display: grid;
 align-items: flex-end;
-padding: 1.5rem 1.25;
+padding: 1.5rem 1.25; 
 transition: .3s;
 
 }
 
+
+
+
+
 .projects_subtitle,
 .project_title{
-  color: #fff;
+  color:black;
 }
 
 
 .projects_subtitle{
-  font-size: var(--smaller-font-size);
+  font-size:large
 }
 
-.project_title{
+.projects_title{
   font-size: var(--h3-font-size);
-  margin-bottom: .75rem;
+  margin-bottom: 1rem;
 
 }
+
+
 /*=============== SKILLS ===============*/
 .skills_title{
   font-size: var(--h3-font-size);

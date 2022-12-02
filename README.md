@@ -11,4 +11,6 @@
 
 💙 
 
-![preview img](/preview.png)
+#Preview
+
+![](img/Ska%CC%88rmavbild%202022-12-02%20kl.%2017.30.58.png)
