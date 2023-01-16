@@ -12,11 +12,10 @@ Under projekt hittar man:
 * Kloning av Microsoft websida
 * Förbättring av en befintlig hemsida
 * Layout för inloggning av en skolportal gjort i Figma
-* En bild på laptop och kamera
+
 
 Under Skills hittar man:
 * Information om vilka olika tekniker jag hanterar och min erfarenhetsnivå
 
 💙 
 
-Se nedan för preview
